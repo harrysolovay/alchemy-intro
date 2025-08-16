@@ -6,6 +6,10 @@ on:
   pull_request:
     types: [opened, reopened, synchronize, closed]
 
+permissions:
+  pull-requests: write
+  contents: read
+
 concurrency:
   group: "deploy-${{ github.ref }}"
   cancel-in-progress: false
