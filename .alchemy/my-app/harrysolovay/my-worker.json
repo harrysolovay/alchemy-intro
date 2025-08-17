@@ -1,0 +1,37 @@
+{
+  "kind": "cloudflare::Worker",
+  "id": "my-worker",
+  "fqn": "my-app/harrysolovay/my-worker",
+  "seq": 0,
+  "data": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+    "Symbol(alchemy::ResourceID)": "my-worker",
+    "Symbol(alchemy::ResourceFQN)": "my-app/harrysolovay/my-worker",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "entrypoint": "./worker.ts",
+    "type": "service",
+    "id": "my-worker",
+    "name": "my-worker",
+    "cwd": "",
+    "compatibilityDate": "2025-08-13",
+    "compatibilityFlags": [],
+    "format": "esm",
+    "bindings": {},
+    "createdAt": 1755442347838,
+    "updatedAt": 1755442347838,
+    "url": "http://localhost:1337",
+    "routes": [],
+    "domains": [],
+    "dev": {
+      "hasRemote": false
+    }
+  },
+  "props": {
+    "entrypoint": "./worker.ts"
+  }
+}
